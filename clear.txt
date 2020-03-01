@@ -1,0 +1,1 @@
+Sub clearData()' For every tab in this sheetFor Each ws In Worksheets    ' Delete the 8 columns of data created by StockAnalyzer    For i = 1 To 8    ws.Columns(9).EntireColumn.Delete    Next iNext wsEnd Sub
